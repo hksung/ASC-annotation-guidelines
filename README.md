@@ -1,4 +1,4 @@
-# ASC-annotation-project
+# ASC-annotation-guidelines
 
 This document provides an initial guideline of the ASC tags used.
 
