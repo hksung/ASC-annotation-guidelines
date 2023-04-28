@@ -1,9 +1,9 @@
 # ASC-annotation-guidelines
 
-## Purpose
+## 1. Purpose
 Every instance of corpus annotation involves making decisions (Gerdes & Kahane, 2016). In this document, we discuss the rationale behind our choices in categorizing Argument Structure Construction (ASC) within an English corpus.
 
-## Basic unit
+## 2. Basic unit
 
 - We are interested in ASC annotations. By ASC annotation, we mean an annotation based on a syntactic/lexicogrammatical construction, wherein a verb and its argument structure consitute a form that corresponds to a propositional meaning (e.g., Diessel, 2004; Fillmore, Kay, & O’Connor, 1988; Goldberg, 1995; 2003; 2006; Jackendoff, 2002).
 
@@ -24,27 +24,24 @@ Every instance of corpus annotation involves making decisions (Gerdes & Kahane, 
 
 - Among the columns, `4`, `8`, and `10` are crucial, as we will tag the ASC in the 10th column for every `VERB` that appears in the `4th` column. In most cases, this overlaps with the `root` found in the `8th` column. 
 
-- There are exceptional cases either (1) a different element (i.e., AUX), rather than the VERB, should be considered the basic unit of analysis, or (2) the verb itself may not be regarded as the basic unit. Annotators should keep the following considerations in mind when encountering such situations.
+- In exceptional cases, annotators may encounter situations where (1) a different element (e.g., AUX) should be considered the basic unit of analysis instead of the VERB, (2) the verb itself may not be suitable as the fundamental unit, or (3) there is no appropriate unit to tag. Annotators should remain vigilant and consider the following factors when faced with these scenarios.
+
   - (1) Consider an auxiliary (AUX) verb as the basic unit of analysis, particularly when it functions as a copular verb.  
-
+  
+    <img width="740" alt="image" src="https://user-images.githubusercontent.com/84297888/235016296-5ecde96b-b565-40fc-bf01-97cbfd8eb082.png">
   - (2) In certain cases, some verbs function as modifiers rather than serving as the basic unit for ASC tagging. By examining the 8th column, annotators may identify modifier-related tags, such as 'amod' (adjectival modifier) or 'acl' (clausal modifier of noun). When encountering verbs with these roles, they should not be treated as the basic unit for ASC annotation.
+  
+    <img width="740" alt="image" src="https://user-images.githubusercontent.com/84297888/235016264-3a7c14f6-fb8c-45ab-9833-fa419e0191e0.png">
 
+  - (3) Occasionally, a sentence may have a root but no verb, particularly when the data originates from spoken discourse. In such examples, we will not assign any ASC tag to the sentence.
 
-### 
+    <img width="740" alt="image" src="https://user-images.githubusercontent.com/84297888/235021327-8e6e8fa2-1d75-42a6-81c6-24799e910a91.png">
 
+## 3. Simple and concise guidelines
 
+For an efficient annotation process, our preliminary guidelines (for annotators) focus on simplicity, minimality, and concision, as proposed by Gerdes & Kahane (2016). We offer a tag set consisting of nine fundamental ASC tags, accompanied by a decision tree to enable efficient, succinct, and swift searching while avoiding redundancies.
 
-
-
-If you have questions when tagging, please follow this procedure:
-- Check the [ASC tagging scheme](#asc-tagging-scheme) below.
-- Check the [ASC decision tree](#asc-decision-tree) below.
-- Check the detalied <a href="https://asc-treebank.readthedocs.io/en/latest/ASC%20guideline.html" target="_blank">guidelines</a> for each tag.
-- Check these <a href="https://web.stanford.edu/~jurafsky/slp3/slides/22_SRL.pdf" target="_blank">slides</a>, if you need a brief introduction about the `semantic roles` (e.g., agent, path) used in <b>semantic frames</b>.
-- <b>Bring up the issue in our weekly meeting</b>, if the annotations are ambigurous.
-
-## ASC tagging scheme
-Here, each `tag` is described and examples of each are also given.
+### ASG tag set
 
 | **ASC tag**    | **Syntactic frame (example)**                      | **Semantic frame (example)**                                                |
 |----------------|----------------------------------------------------|-----------------------------------------------------------------------------|
@@ -58,39 +55,7 @@ Here, each `tag` is described and examples of each are also given.
 | **`TRAN_RES`**   | Subj-V-Obj-NP                                      | X<sub>agent</sub> causes Y<sub>theme</sub> to become Z<sub>state</sub>      |
 | **`PASSIVE`**    | Subj-auxV<sub>past participle</sub>(-*by*-PP)      | X<sub>theme</sub> undergo V (*by* Y<sub>agent</sug>)                        |
 
+### ASC decision tree
 
-## ASC tagging steps
-
-
-
-2. Among the columns, `4`, `8`, and `10` are crucial, as we will tag the ASC in the 10th column for every `VERB` that appears in the `4th` column. In most cases, this overlaps with the `root` found in the `8th` column. 
-
-### Practice with examples
-
-##### Example 1
-<img src="https://user-images.githubusercontent.com/84297888/232111316-5ab514ed-bfeb-4774-a3c5-cabf97cab336.png" width="550" alt="example image1-1">
-  
-  - Identify the VERB (located in column 4) and the root (located in column 8).
-  - Determine the appropriate ASC tag by taking into account both syntactic and semantic frames.
-  - Once you have decided on the ASC tag, enter it into the 10th column.
-<img src="https://user-images.githubusercontent.com/84297888/232111999-e5c869ad-5388-41b7-a5db-96dfe2414268.png" width="550" alt="example image1-2">
-
-
-##### Example 2
-<img src="https://user-images.githubusercontent.com/84297888/232112756-d7b80fc2-61d7-4ca8-b315-13e49875d2f3.png" width="550" alt="example image2">
-
- - Occasionally, a sentence may have a root but no verb, particularly when the data originates from spoken discourse.
- - In such examples, we will not assign any ASC tag to the sentence, as it lacks the necessary components for accurate analysis and processing.
-
-##### Example 3
-<img src="https://user-images.githubusercontent.com/84297888/232115934-1209d37e-027c-48c2-b064-539c28903c2a.png" width="550" alt="example image3-1">
-
- - In this case, you need to assign three ASC tags, as the `VERB` can be identified three times in a given snetence.
- - Keep in mind that the `TRAN_S` tag may include several subcategories (as well as a various semantic arguments) such as mental activities, explanations of a subject’s state, and communication activities such as speaking or writing.
- - For the last verb `eat`, even though we cannot directly identify the object of the verb in the syntactic frame, it is essential to consider its meaning (as we can infer the object of the verb while reading the sentence, i.e., `what`).
-    
-<img src="https://user-images.githubusercontent.com/84297888/232117260-8eb7616b-5ae7-48e2-8df1-ecd688516549.png" width="550" alt="example image3-2">
-
-## ASC decision tree 
-![image](https://user-images.githubusercontent.com/84297888/233741248-7a4accab-3243-4206-b952-cb8ec8bf5819.png)
+<img width="1467" alt="image" src="https://user-images.githubusercontent.com/84297888/235018103-aa2be4da-146a-4693-add0-38fb8f887df8.png">
 
