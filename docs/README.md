@@ -3,12 +3,16 @@
 Every instance of corpus annotation involves making decisions. 
 In this document, we discuss the rationale behind our choices in categorizing Argument Structure Construction (ASC) within English L1/L2 corpora.
 
-## Index
-1. Theoretical background
-2. Quick start guidelines
-    - Basic units 
-    - Simple guidelines
-3. Not-so-simple cases
+# Index
+1. [Theoretical background](https://hksung.github.io/ASC-annotation-guidelines/1_TB/#theoretical-background)
+2. [Quick start guidelines](https://hksung.github.io/ASC-annotation-guidelines/2_QSG/#quick-start-guides)
+    - [Basic units](https://hksung.github.io/ASC-annotation-guidelines/2_QSG/1.%20Basic%20unit.html#basic-unit) 
+        - Where to tag ASCs
+        - Some exceptional cases
+    - [Simple guidelines](https://hksung.github.io/ASC-annotation-guidelines/2_QSG/2.%20Simple%20guidelines.html#simple-guideline)
+        - Simple tag set
+        - Decision tree 
+3. [Not-so-simple cases](https://hksung.github.io/ASC-annotation-guidelines/3_NSSC/#not-so-simple-cases)
     - Light verbs
     - Phrasal verbs
-4. Ample examples from the corpora
+4. [Examples](https://hksung.github.io/ASC-annotation-guidelines/4_AE/#examples)
