@@ -3,7 +3,7 @@
 Every instance of corpus annotation involves making decisions. 
 In this document, we discuss the rationale behind our choices in categorizing Argument Structure Construction (ASC) within English L1/L2 corpora.
 
-# Index
+# Contents
 1. [Theoretical background](https://hksung.github.io/ASC-annotation-guidelines/1_TB/#theoretical-background)
 2. [Quick start guidelines](https://hksung.github.io/ASC-annotation-guidelines/2_QSG/#quick-start-guides)
     - [Basic units](https://hksung.github.io/ASC-annotation-guidelines/2_QSG/1.%20Basic%20unit.html#basic-unit) 
