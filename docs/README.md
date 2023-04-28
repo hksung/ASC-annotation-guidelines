@@ -1,7 +1,7 @@
-# ASC annotation guidelines
+# ASC annotation guidelines for the LCR-ADS lab annotators
 
-Every instance of corpus annotation involves making decisions. 
-In this document, we discuss the rationale behind our choices in categorizing Argument Structure Construction (ASC) within English L1/L2 corpora.
+- Every instance of corpus annotation involves making decisions. 
+- In this document, we discuss the rationale behind our choices in categorizing Argument Structure Construction (ASC) within English L1/L2 corpora.
 
 # Contents
 1. [Theoretical background](https://hksung.github.io/ASC-annotation-guidelines/1_TB/#theoretical-background)
