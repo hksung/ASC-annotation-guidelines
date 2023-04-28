@@ -4,8 +4,20 @@ sort: 1
 
 # Quick Start Guides
 
-If you have questions when tagging, please follow this procedure:
-
-- Check the detalied <a href="https://asc-treebank.readthedocs.io/en/latest/ASC%20guideline.html" target="_blank">guidelines</a> for each tag.
-- Check these <a href="https://web.stanford.edu/~jurafsky/slp3/slides/22_SRL.pdf" target="_blank">slides</a>, if you need a brief introduction about the `semantic roles` (e.g., agent, path) used in <b>semantic frames</b>.
-- <b>Bring up the issue in our weekly meeting</b>, if the annotations are ambigurous.
+### Contents
+- [Basic units](https://hksung.github.io/ASC-annotation-guidelines/2_QSG/1.%20Basic%20unit.html#basic-unit) 
+    - Where to tag ASCs
+    - Some exceptional cases
+- [Simple guidelines](https://hksung.github.io/ASC-annotation-guidelines/2_QSG/2.%20Simple%20guidelines.html#simple-guideline)
+    - Tag set
+    - Decision tree 
+- [Detailed guildelines](https://hksung.github.io/ASC-annotation-guidelines/2_QSG/2.%20Simple%20guidelines.html#detailed-guideline)
+    - ATTR
+    - INTRAN_S
+    - INTRAN_MOT
+    - INTRAN_RES
+    - TRAN_S
+    - DITRAN
+    - CAUS_MOT
+    - TRAN_RES
+    - PASSIVE
