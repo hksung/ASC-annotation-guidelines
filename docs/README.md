@@ -8,6 +8,7 @@ In this document, we discuss the rationale behind our choices in categorizing Ar
 2. Quick start guidelines
     - Basic units 
     - Simple guidelines
-3. Not simple cases
+3. Not-so-simple cases
     - Light verbs
     - Phrasal verbs
+4. Ample examples from the corpora
