@@ -3,7 +3,13 @@
 - Every instance of corpus annotation involves making decisions. 
 - In this document, we discuss the rationale behind our choices in categorizing Argument Structure Construction (ASC) within English L1/L2 corpora.
 
-# Contents
+## General guideline
+If you have questions when tagging, please follow this procedure:
+- Check the detailed guidelines for each tag.
+- Check these <a href="https://web.stanford.edu/~jurafsky/slp3/slides/22_SRL.pdf" target="_blank">slides</a>, if you need a brief introduction about the `semantic roles` (e.g., agent, path) used in <b>semantic frames</b>.
+- <b>Use a Discord server<b> actively to post interesting/difficult annotation cases and communication about the proejct.
+
+## Contents
 1. [Theoretical background](https://hksung.github.io/ASC-annotation-guidelines/1_TB/#theoretical-background)
 2. [Quick start guidelines](https://hksung.github.io/ASC-annotation-guidelines/2_QSG/#quick-start-guides)
     - [Basic units](https://hksung.github.io/ASC-annotation-guidelines/2_QSG/1.%20Basic%20unit.html#basic-unit) 
