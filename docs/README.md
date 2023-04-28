@@ -1,13 +1,12 @@
 # ASC annotation guidelines for the LCR-ADS lab annotators
 
-- Every instance of corpus annotation involves making decisions. 
-- In this document, we discuss the rationale behind our choices in categorizing Argument Structure Construction (ASC) within English L1/L2 corpora.
+Every instance of corpus annotation involves making decisions. In this document, we discuss the rationale behind our choices in categorizing Argument Structure Construction (ASC) within English L1/L2 corpora.
 
 ## General guideline
 If you have questions when tagging, please follow this procedure:
 - Check the detailed guidelines for each tag.
 - Check these <a href="https://web.stanford.edu/~jurafsky/slp3/slides/22_SRL.pdf" target="_blank">slides</a>, if you need a brief introduction about the `semantic roles` (e.g., agent, path) used in <b>semantic frames</b>.
-- <b>Use a Discord server<b> actively to post interesting/difficult annotation cases and communication about the proejct.
+- <b>Use a Discord server</b> actively to post interesting/difficult annotation cases and communication about the proejct.
 
 ## Contents
 1. [Theoretical background](https://hksung.github.io/ASC-annotation-guidelines/1_TB/#theoretical-background)
