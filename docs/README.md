@@ -18,4 +18,4 @@ If you have questions when tagging, please follow this procedure:
 
 ## Other resources
 - Check these <a href="https://web.stanford.edu/~jurafsky/slp3/slides/22_SRL.pdf" target="_blank">slides</a>, if you need a brief introduction about the `semantic roles` (e.g., agent, path) used in <b>semantic frames</b>.
-- Check this <a href="https://kristopherkyle.github.io/L2-Annotation-Project/dep_anno_overview.html" target="_blank">page</a>, if you have a question about the tag on the 8th column of the CoNLL-U format data (i.e., a `dependency tag`).
+- Check this <a href="https://kristopherkyle.github.io/L2-Annotation-Project/dep_anno_overview.html" target="_blank">page</a>, if you have a question about the `dependency` tag on the 8th column of the CoNLL-U format data.
