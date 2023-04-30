@@ -13,8 +13,8 @@ $theme-white: lighten($black, 99%);
 $theme-black: lighten($black, 15%);
 
 // theme link
-$theme-link: $blue;
-$theme-link-hover: lighten($blue, 10%);
+$theme-link: $theme-blue;
+$theme-link-hover: lighten($theme-blue, 10%);
 $theme-link-visited: lighten($purple, 10%);
 
 // theme code
