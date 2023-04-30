@@ -4,6 +4,7 @@ $head-font: "Roboto-Slab", sans-serif;
 $mono-font: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
 
 // theme color
+//$theme-blue: #2980b9;
 $theme-blue: #004F6E;
 $theme-red: #8D1D58;
 $theme-green: #104735;
@@ -13,8 +14,8 @@ $theme-white: lighten($black, 99%);
 $theme-black: lighten($black, 15%);
 
 // theme link
-$theme-link: $theme-blue;
-$theme-link-hover: lighten($theme-blue, 10%);
+$theme-link: $blue;
+$theme-link-hover: lighten($blue, 10%);
 $theme-link-visited: lighten($purple, 10%);
 
 // theme code
