@@ -1,0 +1,14 @@
+title: ASC-annotation-guidelines
+lang: en
+description: This is the documentation of ASC-annotation-guidelines.
+
+remote_theme: rundocs/jekyll-rtd-theme
+
+readme_index:
+  with_frontmatter: true
+
+exclude:
+  - Makefile
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
