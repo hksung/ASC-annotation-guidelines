@@ -2,7 +2,7 @@
 sort: 3
 ---
 
-# More Discussions
+# Discussions
 
 ### Contents
 - [Dealing with L2 usage](https://hksung.github.io/ASC-annotation-guidelines/3_MD/1.%20Dealing%20with%20L2%20usage.html#dealing-with-l2-usage) 
