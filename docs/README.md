@@ -1,6 +1,6 @@
 # ASC annotation guidelines for the LCR-ADS lab annotators
 
-Every instance of corpus annotation involves making decisions. In this document, we discuss the rationale behind our choices in categorizing Argument Structure Construction (ASC) within English L1/L2 corpora. This project is under the [LCR-ADS lab](https://lcr-ads-lab.github.io/LCR-ADS-Home/) at the University of Oregon's Linguistics Department, maintained by Dr. Kristopher Kyle.
+Every instance of corpus annotation involves making decisions. In this document, we discuss the rationale behind our choices in categorizing Argument Structure Construction (ASC) within English L1/L2 corpora. This project is under the [LCR-ADS lab](https://lcr-ads-lab.github.io/LCR-ADS-Home/) at the University of Oregon's Linguistics Department, supervised and supported by Dr. Kristopher Kyle.
 
 ## General guide
 If you have questions when tagging, please follow this procedure:
