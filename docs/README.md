@@ -13,7 +13,7 @@ If you have questions when tagging, please follow this procedure:
     - [Basic units](https://hksung.github.io/ASC-annotation-guidelines/2_QSG/1.%20Basic%20unit.html#basic-unit) 
     - [Simple guidelines](https://hksung.github.io/ASC-annotation-guidelines/2_QSG/2.%20Simple%20guidelines.html#simple-guideline)
     - [Detailed guildelines](https://hksung.github.io/ASC-annotation-guidelines/2_QSG/2.%20Simple%20guidelines.html#detailed-guideline)
-3. [Dicussions](https://hksung.github.io/ASC-annotation-guidelines/3_NSSC/#not-so-simple-cases)
+3. [Dicussions](https://hksung.github.io/ASC-annotation-guidelines/3_MD/#discussions)
 4. [Examples](https://hksung.github.io/ASC-annotation-guidelines/4_AE/#examples)
 
 ## Other resources
