@@ -5,7 +5,7 @@ Every instance of corpus annotation involves making decisions. In this document,
 ## General guide
 If you have questions when tagging, please follow this procedure:
 - Check the guidelines for each tag.
-- <b>Use a Discord server</b> actively to post interesting/difficult annotation cases and communication about the proejct.
+- <b>Use a Discord server</b> actively to post interesting/difficult annotation cases and communication about the project.
 
 ## Contents
 1. [Theoretical background](https://hksung.github.io/ASC-annotation-guidelines/1_TB/#theoretical-background)
