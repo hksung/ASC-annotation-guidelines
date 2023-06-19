@@ -121,7 +121,7 @@ Merely examining the surface structure, it is sometimes challenging to different
 
 The following are two examples, which appear very similar in terms of their surface structures.
 
-<img width="585" alt="image" src="https://github.com/hksung/ASC-annotation-guidelines/assets/84297888/bfc85d7d-e989-4a44-abe6-6767d290f76a">
+<img width="740" alt="image" src="https://github.com/hksung/ASC-annotation-guidelines/assets/84297888/bfc85d7d-e989-4a44-abe6-6767d290f76a">
 
 We are going to rely on POS tags. The simple rule is as follows: (1) if the element following the 'be' verb is marked as VERB (in the 4th column), tag it as PASSIVE on the 'verb'; (2) if this element is marked as ADJ (or any other POS tag that's not VERB), tag it as ATTR on the 'be' verb.
 
@@ -138,6 +138,10 @@ This should get INTRAN_MOT tag, because we have a theme as a subject and a desti
 ```
 
 ### TRAN_S: reflexive object
+Reflexive pronouns are words that are used when a person or thing acts on itself (e.g., _myself_, _yourself_, _ourselves_). 
+They are mainly used for making co-ference with the subject, which might make us feel semantically ambiguous to tag TRAN_S in some cases. 
+
+<img width="740" alt="image" src="https://github.com/hksung/ASC-annotation-guidelines/assets/84297888/70f6b64b-7494-4fb0-bc3b-c3b271bacb1e">
 
 ### TRAN_RES: figurative preposition/particle
 
@@ -210,6 +214,6 @@ We will not tag modal auxiliary verbs because they serve a grammatical function 
 We will include some of the ver phrases with the force of a hedge (in certain contexts) (pp.944-945): *happen to, tend to be, appear to, (there) is said to be*.
 - Example: *happen to*
 
-  <img width="736" alt="image" src="https://user-images.githubusercontent.com/84297888/236060250-958f28c5-936d-412d-9f07-3e957f8c403d.png">
+  <img width="740" alt="image" src="https://user-images.githubusercontent.com/84297888/236060250-958f28c5-936d-412d-9f07-3e957f8c403d.png">
 
   ### Some discourse markers
