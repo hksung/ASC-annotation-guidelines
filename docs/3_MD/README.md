@@ -121,6 +121,8 @@ Merely examining the surface structure, it is sometimes challenging to different
 
 The following are two examples, which appear very similar in terms of their surface structures.
 
+<img width="585" alt="image" src="https://github.com/hksung/ASC-annotation-guidelines/assets/84297888/bfc85d7d-e989-4a44-abe6-6767d290f76a">
+
 We are going to rely on POS tags. The simple rule is as follows: (1) if the element following the 'be' verb is marked as VERB (in the 4th column), tag it as PASSIVE on the 'verb'; (2) if this element is marked as ADJ (or any other POS tag that's not VERB), tag it as ATTR on the 'be' verb.
 
 ## Ambiguous arguments-construction combinations
