@@ -2,22 +2,36 @@
 sort: 3
 ---
 
-# Discussions
+# Table of Contents
+1. [Ambiguous constructions](#ambiguous-constructions)
+	* [CAUS_MOT vs. TRAN_RES](#caus_mot-vs-tran_res)
+	* [DITRAN vs. CAUS_MOT](#ditran-vs-caus_mot)
+	* [PASSIVE vs. ATTR](#passive-vs-attr)
 
-## INTRAN + location
-(updated 230515)
+2. [Ambiguous arguments-construction combinations](#ambiguous-arguments-construction-combinations)	
+	* [INTRAN_MOT: verb "enter" + location](#intran_mot-verb-enter--location)
+	* [TRAN_S: reflexive object](#tran_s-reflexive-object) 
+	* [TRAN_RES: figurative preposition/particle](#tran_res-figurative-prepositionparticle)
+	* [TRAN_RES: verb "keep/prevent"](#tran_res-verb-keepprevent)
 
-Intransitive verbs often require an obligatory advervial argument, which typically answers a question like 'Where is/was X' (Biber et al., 1999, pp. 141-145). We will treat these patterns similarly to copular verbs (e.g., *I am in a room*), thus assigning the ATTR tag. The following are some example sentences.
-```
-- I live in Okinawa.
-- Three bomb victims were still in St Bartholomev's Hospital last night.
-```
+3. [Difficult grammatical structures](#difficult-grammatical-structures)
+	* [Inverted/Fronted word order](#inverted-fronted-word-order)
+	* [Dealing with L2 usage](#dealing-with-l2-usage)
+	* [Multi-word lexical units](#multi-word-lexical-units)
+	* [Light verb constructions](#light-verb-constructions)
+
+4. [Skipped structures](#skipped-structures)
+	* [Modal and semi-modals](#modal-and-semi-modals)
+	* [Some discourse markers](#)
+
+# Detailed discussion
+
+## Ambiguous constructions
 
 
-## CAUS_MOT vs. TRAN_RES
+### CAUS_MOT vs. TRAN_RES
 
 CAUS_MOT typically contains a non-stative verb and **a directional phrase**.
-
 The following are some example sentences (Goldberg, 1995, p.152)
 ```
 - They laughed the poor guy out of the room.
@@ -93,19 +107,25 @@ The following are some example sentences (Boas, 2002; Goldberg, 1995).
 - He made her a queen.
 ```
 
-## DITRAN vs. CAUS_MOT 
-
-### Dative alternation
-(updated 230508)
+### DITRAN vs. CAUS_MOT 
 
 One of the questions is how to treat cases involving dative alternation (i.e., the alternation between a prepositional indirect-object construction (e.g., *I gave the book to him*) and a double-object construction (e.g., *I gave him the book*)). 
 
 The object of the *to* preposition can cover a wide range of argument types (semantically), including recipients (possessional goals, e.g., *She handed a letter **to me***) and spatial goals (e.g., *He kicked a ball **to the target***) (Haspelmath, 2003; Hovav & Levin, 2008; Newman, 1996). Sometimes, it can even include arguments that are not clearly goals, as seen in examples like *conform to*, *submit to* (more likely to be phrasal verbss). 
-
 In this annotation project, we will include every **prepositional indirect-object construction** when the argument following the *to* preposition is either a recipient (possessional goal) or a spacial goal, and tag it as a **CAUS_MOT**.
 
-## verb "enter" + location
-(updated 230525)
+
+### PASSIVE vs. ATTR
+
+Merely examining the surface structure, it is sometimes challenging to differentiate between PASSIVE and ATTR constructions, especially when the verb lies on a continuum between the past participle form of a verb and an adjective.
+
+The following are two examples, which appear very similar in terms of their surface structures.
+
+We are going to rely on POS tags. The simple rule is as follows: (1) if the element following the 'be' verb is marked as VERB (in the 4th column), tag it as PASSIVE on the 'verb'; (2) if this element is marked as ADJ (or any other POS tag that's not VERB), tag it as ATTR on the 'be' verb.
+
+## Ambiguous arguments-construction combinations
+
+### INTRAN_MOT: verb "enter" + location
 This should get INTRAN_MOT tag, because we have a theme as a subject and a destination after the verb.
 
 ```
@@ -115,17 +135,28 @@ This should get INTRAN_MOT tag, because we have a theme as a subject and a desti
 - visit the museum
 ```
 
-## Inverted/Fronted word order
+### TRAN_S: reflexive object
 
-### Fronted theme (theme+agent+verb+recipient)
+### TRAN_RES: figurative preposition/particle
+
+### TRAN_RES: verb "keep/prevent"
+
+
+## Difficult grammatical structures
+
+
+### Inverted/Fronted word order
+
+#### Fronted theme (theme+agent+verb+recipient)
+
 e.g., (# text = I am writing to reply **your letter you wrote me** on 10 June.) 
+
 At this stage, we do not differentiate the ASCs that have different word order (We plan to address this after the first round of ASC annotation work is completed). Because we can identify all necessary arguments for the ditransitive construction in this example, we are going to assign the DITRAN tag for this case.
 
-## Dealing with L2 usage
-
+### Dealing with L2 usage
 Often, errors can be found in sentences or utterances, especially in an L2 dataset. Building on the earlier two projects related to L2 English UD treebank (Berzak et al. 2016 & Kyle et al., 2022), we will annotate the ASCs based on their realized form, not their intended meaning, to eliminate any potential interpretation from the annotators and keep consistency (Wittenberg et al., 2014). 
 
-### INTRAN_S vs. TRAN_S
+#### INTRAN_S vs. TRAN_S
 
 - Example: *explain about* 
   
@@ -133,20 +164,8 @@ Often, errors can be found in sentences or utterances, especially in an L2 datas
   
   The issue lies with the use of the preposition "about" in this context. In English, when you explain something, you typically use "explain" without a preposition, as it is a transitive verb that takes a direct object. However, in terms of ASC tagging, we rather rely on the realized form and tag it as "INTRAN_S" for the purpose of annotating the L2 dataset based on its actual structure, rather than attempting to infer the intended meaning.
 
-## Modal and semi-modals
 
-We will not tag modal auxiliary verbs because they serve a grammatical function rather than providing semantic content (Similarly, the project does not encompass the tagging of tense-related aspects). The following provides more information on English modals and semi-modals based on Biber et al. (1999, pp.483-484). 
-
-- Nine central modal auxiliary verbs for modality: *can, could, may, might, shall, should, will, would, must*
-- Marginal auxiliary verbs (behave like modals in taking auxiliary negation and *yes-no* question inversion): *need (to), ought to, dare (to), used to*
-- Semi-modals (i.e., a number of fixed idiomatic phrases with functions similar to those of modals): *(had) better, have to, (have) got to, be supposed to, be going to*
-
-We will include some of the ver phrases with the force of a hedge (in certain contexts) (pp.944-945): *happen to, tend to be, appear to, (there) is said to be*.
-- Example: *happen to*
-
-  <img width="736" alt="image" src="https://user-images.githubusercontent.com/84297888/236060250-958f28c5-936d-412d-9f07-3e957f8c403d.png">
-
-## Multi-word lexical units
+### Multi-word lexical units
 
 We will assign a single ASG tag to a multi-word lexical unit (i.e., a sequence of words which functions as a single grammatical unit), as the meaning of the multi-word unit derives from the combination of the words, not from the individual meanings of the parts (Biber et al., 1999, p.58).
 
@@ -176,3 +195,19 @@ Light verb constructions are intricate predicates where the verb loses its seman
   <img width="740" alt="image" src="https://user-images.githubusercontent.com/84297888/235262173-3651bf91-74fa-459a-9a81-d89f32668645.png">
 
 
+## Skipped structures
+
+### Modal and semi-modals
+
+We will not tag modal auxiliary verbs because they serve a grammatical function rather than providing semantic content (Similarly, the project does not encompass the tagging of tense-related aspects). The following provides more information on English modals and semi-modals based on Biber et al. (1999, pp.483-484). 
+
+- Nine central modal auxiliary verbs for modality: *can, could, may, might, shall, should, will, would, must*
+- Marginal auxiliary verbs (behave like modals in taking auxiliary negation and *yes-no* question inversion): *need (to), ought to, dare (to), used to*
+- Semi-modals (i.e., a number of fixed idiomatic phrases with functions similar to those of modals): *(had) better, have to, (have) got to, be supposed to, be going to*
+
+We will include some of the ver phrases with the force of a hedge (in certain contexts) (pp.944-945): *happen to, tend to be, appear to, (there) is said to be*.
+- Example: *happen to*
+
+  <img width="736" alt="image" src="https://user-images.githubusercontent.com/84297888/236060250-958f28c5-936d-412d-9f07-3e957f8c403d.png">
+
+  ### Some discourse markers
