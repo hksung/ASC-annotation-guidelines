@@ -11,7 +11,7 @@ sort: 3
 2. [Ambiguous arguments-construction combinations](#ambiguous-arguments-construction-combinations)	
 	* [INTRAN_MOT: verb "enter" + location](#intran_mot-verb-enter--location)
 	* [TRAN_S: reflexive object](#tran_s-reflexive-object) 
-	* [TRAN_RES: figurative preposition/particle](#tran_res-figurative-prepositionparticle)
+	* [TRAN_RES: figurative particle](#tran_res-figurative-particle)
 	* [TRAN_RES: verb "keep/prevent"](#tran_res-verb-keepprevent)
 
 3. [Difficult grammatical structures](#difficult-grammatical-structures)
@@ -143,10 +143,28 @@ They are mainly used for making co-ference with the subject, which might make us
 
 <img width="740" alt="image" src="https://github.com/hksung/ASC-annotation-guidelines/assets/84297888/70f6b64b-7494-4fb0-bc3b-c3b271bacb1e">
 
-### TRAN_RES: figurative preposition/particle
+### TRAN_RES: figurative particle
+Particles are a set of forms that principally convey the meaning of motion and result. Key examples of these include: _across, along, around, aside, away, by, down, forth, home, in, off, on, out, over, past, round, through, under, up_. (Biber et al., 1999, p. 78).
+
+When these particles get/convey the meaning of result in the context, we will tag it as TRAN_RES.
+```
+- He called his friend up.
+- Harry coughed himself into insensibility. (Fake reflexive resultatives: Goldberg & Jackendoff, 2004, p.537)
+- They made him out [to be] a liar. (Morgan, 1997, p.340)
+- if you could shoot this off over night
+```
 
 ### TRAN_RES: verb "keep/prevent"
+Certain verbs like "keep" or "prevent", which do not explicitly evoking any alteration in direction or state, are nevertheless categorized under 'CAUS_MOT' or 'TRAN_RES'. We interpret that the causation of an object to maintain a steady position (CAUS_MOT) or to retain its current state (TRAN_RES) as an act of inducing change. 
 
+```
+- keep someone happy
+- keep her staying at their house
+- keep the body youthful
+- prevent someone from feeling sad
+- prevent her from leaving their house
+- prevent the body from again
+```
 
 ## Difficult grammatical structures
 
@@ -216,4 +234,6 @@ We will include some of the ver phrases with the force of a hedge (in certain co
 
   <img width="740" alt="image" src="https://user-images.githubusercontent.com/84297888/236060250-958f28c5-936d-412d-9f07-3e957f8c403d.png">
 
-  ### Some discourse markers
+### Some discourse markers
+
+At present, we are not tagging some discourse markers like _according to_, _given (that)_, _regarding_ in the EWT files (updated 230620).  
