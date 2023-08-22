@@ -53,7 +53,7 @@ CAUS_MOT is associated with a category of related verb senses (Goldberg, 1995, p
 ```
 
 2. Sometimes the construction can be related to force-dynamic verbs (Talmy 1985b) that encode a communicative verb.
-(In this case, the motion ins not strictly entailed.)
+(In this case, the motion is not strictly entailed.)
 ```
 - Sam ordered him out of the house.
 - Sam asked him into the room.
