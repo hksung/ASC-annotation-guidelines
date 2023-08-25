@@ -191,7 +191,7 @@ Often, errors can be found in sentences or utterances, especially in an L2 datas
 
 ### Multi-word lexical units
 
-We will assign a single ASG tag to a multi-word lexical unit (i.e., a sequence of words which functions as a single grammatical unit), as the meaning of the multi-word unit derives from the combination of the words, not from the individual meanings of the parts (Biber et al., 1999, p.58).
+We will assign a single ASC tag to a multi-word lexical unit (i.e., a sequence of words which functions as a single grammatical unit), as the meaning of the multi-word unit derives from the combination of the words, not from the individual meanings of the parts (Biber et al., 1999, p.58).
 
 ```
 Categorized four major kinds of multi-word combination (Biber et al., 1999, p.403),
